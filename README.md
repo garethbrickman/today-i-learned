@@ -6,3 +6,12 @@ Indexing a database typically means mapping a binary tree data structure onto th
 
 In a git repo, find when a certain string was first added in the codebase:
 ```git log -G string_to_look_for --reverse```
+
+Test curl to localhost
+```
+nc -l <port number>
+```
+
+```
+curl http://localhost:<port number>/
+```
